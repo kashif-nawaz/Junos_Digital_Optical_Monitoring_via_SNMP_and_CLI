@@ -66,7 +66,7 @@ jnxDomCurrentLaneLaserTemperature.593.0 = 51
 * I will use public snmp community which is already configured with read-only authorization on Junos EVO box.
 ```
 sudo apt-get install snmp -y
-snmpwalk -v2c -c public 10.161.36.89 1.3.6.1.4.1.2636.3.60.1.1.1.1.8.593
+snmpwalk -v2c -c public 192.168.10.10 1.3.6.1.4.1.2636.3.60.1.1.1.1.8.593
  iso.3.6.1.4.1.2636.3.60.1.1.1.1.8.593 = INTEGER: 52
 ```
 * CLI Commands
