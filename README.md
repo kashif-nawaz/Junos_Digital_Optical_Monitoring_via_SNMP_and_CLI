@@ -75,4 +75,6 @@ snmpwalk -v2c -c public 192.168.10.10 1.3.6.1.4.1.2636.3.60.1.1.1.1.8.593
 show interfaces transport pm optics all et-0/2/10
 show interfaces diagnostics optics et-0/2/10
 show interfaces extensive et-0/2/10
+start shell pfe network fpc0
+show picd optics fpc_slot 0 pic_slot 2 port 10 cmd info
 ``
